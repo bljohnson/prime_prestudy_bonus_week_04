@@ -38,3 +38,4 @@ function splinter(number1, number2){
 }
 console.log(splinter(1, 2));
 //This would log out [1, 2, 2] 
+
