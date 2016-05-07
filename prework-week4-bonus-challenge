@@ -24,14 +24,11 @@ var raphael = function(value, anotherValue, yetAnotherValue){
 }
 
 
- 
-
 michelangelo(theNumber) + leonardo(theNumber);
-
 
 theNumber = theNumber * 2;
 
-
+(donatello(theNumber, 2)) - (raphael(3, 2, theNumber));
 
 
 function splinter(number1, number2){
@@ -40,3 +37,4 @@ function splinter(number1, number2){
     return arrayName;
 }
 console.log(splinter(1, 2));
+//This would log out [1, 2, 2] 
